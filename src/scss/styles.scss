@@ -1,0 +1,102 @@
+@import "_variables";
+@import "_reset";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Play", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: $white;
+}
+
+header {
+  position: fixed;
+  color: $orange;
+  width: 33%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 115px;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h1 {
+    font-size: 59px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 340;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 80%;
+    line-height: 1.4;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 340;
+    margin-bottom: 22px;
+    text-align: justify;
+    line-height: 1.4;
+  }
+  nav {
+    width: 82%;
+    margin-bottom: 3px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li {
+        font-size: 12px;
+        margin-bottom: 8px;
+        color: $grey;
+        padding-bottom: 3px;
+        border-bottom: 0.5px solid rgb(142, 142, 142);
+        &:hover {
+          color: $black;
+          border-bottom: 0.5px solid rgb(14, 17, 17);
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin-left: 33%;
+  .movie {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 5%, transparent)
+      $orange;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .movie__header {
+      width: 75%;
+      display: flex;
+      font-size: 23px;
+      font-weight: 500;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 15px;
+      h4 {
+        text-transform: uppercase;
+      }
+      h5 {
+        font-size: 8px;
+        font-weight: 300;
+      }
+    }
+    img {
+      width: 75%;
+      box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+        inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
