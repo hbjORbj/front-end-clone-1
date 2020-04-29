@@ -1,7 +1,11 @@
 {
-  "name": "best-horror-scenes",
+  "name": "front-end-clone-1",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbjORbj/front-end-clone-1.git"
+  },
   "author": "Benny Joo",
   "license": "MIT",
   "dependencies": {
