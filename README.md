@@ -6,4 +6,8 @@
 
 ## To Clone:
 
-- [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+- [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+
+## Result:
+
+- [https://hbjorbj.github.io/front-end-clone-1/](https://hbjorbj.github.io/front-end-clone-1/)
