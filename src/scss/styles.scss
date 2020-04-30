@@ -52,6 +52,7 @@ header {
       flex-wrap: wrap;
       justify-content: space-between;
       li {
+        cursor: pointer;
         font-size: 12px;
         margin-bottom: 8px;
         color: $grey;
@@ -67,9 +68,9 @@ header {
 }
 
 main {
-  cursor: pointer;
   margin-left: 33%;
   .movie {
+    cursor: pointer;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 5%, transparent)
       $orange;
     height: 85vh;
