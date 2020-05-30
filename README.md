@@ -1,8 +1,8 @@
 # Front-End Clone of Random Website 1
 
-> This has been done for the purpose of practicing SCSS.
+> Built with HTML, SCSS, Vanila JS
 
-> Of course, this clone has been done without looking at the original website's source code except for images, fonts, colors, etc.
+> Only images, fonts and colors have been directly copied.
 
 ## To Clone:
 
